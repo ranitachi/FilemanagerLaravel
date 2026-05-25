@@ -17,7 +17,6 @@ $classAliases = [
     'Console\\Commands\\PurgeTrashCommand',
 
     // Events & listeners
-    'Events\\FileEvents',
     'Events\\FileDeleted',
     'Events\\FileDownloaded',
     'Events\\FileMoved',
@@ -26,7 +25,6 @@ $classAliases = [
     'Listeners\\LogFileActivity',
 
     // Exceptions / Facade
-    'Exceptions\\FileManagerExceptions',
     'Exceptions\\FileManagerException',
     'Exceptions\\FileNotFoundException',
     'Exceptions\\FolderNotFoundException',
