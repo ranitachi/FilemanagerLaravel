@@ -110,12 +110,3 @@ class S3Adapter implements StorageAdapterInterface
         return $this->disk;
     }
 }
-
-// MinIO uses S3-compatible API — just set endpoint in config
-class MinIOAdapter extends S3Adapter
-{
-    public function __construct()
-    {
-        parent::__construct(); // inherits S3 with endpoint configured
-    }
-}
